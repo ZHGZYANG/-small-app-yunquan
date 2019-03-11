@@ -27,7 +27,7 @@ SECRET_KEY = '6%d$46jxiy96%j8#b6js&a!^v^+ji+5gvfk^5wygu5%#mrewy1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.175']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "user_info.UserMessage"
 
@@ -91,11 +91,11 @@ WSGI_APPLICATION = 'yunquan.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lose4578',
-        'USER': "lose4578",
-        'PASSWORD': "lose4578",
+        'NAME': 'yunquanz',
+        'USER': "yunquanz",
+        'PASSWORD': "yunquanz",
         'HOST': "db4free.net",
-        'PORT': 3307
+        'PORT': 3306
     }
 }
 # DATABASES = {
